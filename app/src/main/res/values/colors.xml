@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1f1e24</color>
+    <color name="primary_dark">#0f0f12</color>
+    <color name="accent_primary">#fd3a02</color>
+    <color name="accent_secondary">#27bef7</color>
+    <color name="accent_tertiary">@android:color/white</color>
+
+    <color name="text_primary">#de000000</color>
+    <color name="text_secondary">#8a000000</color>
+    <color name="text_primary_inverse">#deffffff</color>
+    <color name="text_secondary_inverse">#8affffff</color>
+
+    <color name="accent_primary_pressed">#dafd3a02</color>
+    <color name="accent_secondary_pressed">#da27bef7</color>
+    <color name="accent_tertiary_pressed">#daffffff</color>
+</resources>
