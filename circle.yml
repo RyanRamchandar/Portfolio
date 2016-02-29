@@ -4,7 +4,7 @@
 
 general:
     artifacts:
-        - /home/ubuntu/your-app-name/app/build/outputs/apk/
+        - /home/ubuntu/Portfolio/app/build/outputs/apk/
 
 machine:
     environment:
@@ -20,4 +20,3 @@ test:
     override:
         - (./gradlew assemble):
             timeout: 360
-        - cp -r /home/ubuntu/your-app-name/app/build/outputs/apk/ $CIRCLE_ARTIFACTS
