@@ -20,4 +20,4 @@ test:
     override:
         - (./gradlew assemble):
             timeout: 360
-        - cp -r my-project/build/outputs $CIRCLE_ARTIFACTS
+        - cp -r /home/ubuntu/your-app-name/app/build/outputs/apk/ $CIRCLE_ARTIFACTS
